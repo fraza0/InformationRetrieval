@@ -21,3 +21,8 @@ This project contains:
   * Normalized Discounted Cumulative Gain (NDCG);
   * Query Throughput;
   * Median Query Latency;
+
+To check functionalities execute the following command:
+```bash
+java -cp target/DocumentIndexer-3.0.jar:src/main/resources/libstemmer.jar main.DocumentIndexer -h
+```
