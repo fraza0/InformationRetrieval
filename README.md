@@ -24,5 +24,5 @@ This project contains:
 
 To check functionalities execute the following command:
 ```bash
-java -cp target/DocumentIndexer-3.0.jar main.DocumentIndexer -h
+java -cp target/DocumentIndexer-3.0.jar:src/main/resources/libstemmer.jar main.DocumentIndexer -h
 ```
